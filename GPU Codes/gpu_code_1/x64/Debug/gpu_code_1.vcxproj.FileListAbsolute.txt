@@ -1,0 +1,1 @@
+D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\x64\Debug\gpu_code_1.exe

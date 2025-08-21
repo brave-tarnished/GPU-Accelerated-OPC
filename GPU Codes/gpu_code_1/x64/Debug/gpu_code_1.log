@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1" -I"D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc142.pdb" -o "D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\x64\Debug\kernel.cu.obj" "D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\kernel.cu" 
+  The contents of <filesystem> are available only with C++17 or later.
+D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\kernel.cu(111): warning #177-D: variable "stepSize" was declared but never referenced
+            float stepSize = edgeStepSize;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\kernel.cu(96): warning #177-D: variable "firstPoint" was declared but never referenced
+        Point2D firstPoint = originalPoints[0];
+                ^
+  
+  kernel.cu
+  tmpxft_00003914_00000000-7_kernel.cudafe1.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\kernel.cu(314): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\kernel.cu(315): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  gpu_code_1.vcxproj -> D:\Academics\Semester VI\EE 399 - CUDA Project\POST-MIDSEM\GPU Codes\gpu_code_1\x64\Debug\gpu_code_1.exe
